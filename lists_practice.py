@@ -1,23 +1,15 @@
 b = list(range(10,100,10))
+b.append(110)
+print(b)
+b.remove(110)
 print(b)
 
+print(b.index(20,0,2))
 
-stud_marks = {"Madhan":90, "Raj":25,"Mani":80}
-print(stud_marks.keys())
-print(stud_marks.values())
-
-
-ab = list(range(10,100,10))
-ab.append(100)
-ab.append(110)
-ab.remove(110)
-print(ab.index(90,0))
-
-print(ab[0:2])
-print(ab[2:])
-print(ab[-1])
-print(ab[-5:-1])
+c = ['hello','good','bye','cruel','world']
+print(c[1])
+print(c[2])
+print(c[0][1])
+print(c[0:5])
 
 
-x = ['Hello', 1, 2, 3, 4]
-print(x[0][4])
