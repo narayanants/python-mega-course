@@ -18,3 +18,12 @@ while type(user_in) == str:
     else:
         print('Other country is the best')
         break
+
+genre = input('Enter your Genre ')
+movie = input('Enter the movie ')
+
+if genre == 'Horror':
+    print(movie,'is the best horror movie')
+else:
+    print(movie, 'is different genre')
+
