@@ -21,11 +21,9 @@ names = {
     'Vijayam':65
 }
 
-for n in names.keys():
-    print(n)
-
-for n1 in names.values():
+for n1 in names.keys():
     print(n1)
 
-for n1,n2 in names.items():
-    print("{} has age {}".format(n1,n2))
+for n2 in names.values():
+    print(n2)
+

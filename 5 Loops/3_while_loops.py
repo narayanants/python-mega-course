@@ -27,3 +27,4 @@ if genre == 'Horror':
 else:
     print(movie, 'is different genre')
 
+
