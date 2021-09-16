@@ -13,6 +13,10 @@ Data Types
     remove - .remove()
     clear  - .clear()
     index  - .index()
+    read - read()
+    write - write()
+    close - close()
+    seek - seek()
 
     
 
