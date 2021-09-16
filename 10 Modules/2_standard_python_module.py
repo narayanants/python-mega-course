@@ -7,4 +7,4 @@ while True:
             print(myfile.read())
     else:
         print('File is not present')
-        time.sleep()
+        time.sleep(10)
