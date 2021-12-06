@@ -17,6 +17,10 @@ Data Types
     write - write()
     close - close()
     seek - seek()
+    strip = strip()
+    insert = insert()
+    pop = pop()
+    
 
     
 
